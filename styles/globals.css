@@ -1,0 +1,10 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+/* Add any additional global styles below */
+body {
+	font-family: "Source Sans Pro", sans-serif;
+}
