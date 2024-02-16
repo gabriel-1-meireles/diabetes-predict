@@ -1,0 +1,55 @@
+/* Fade and slide out to the left */
+@keyframes slide-fade-out-left {
+	to {
+		transform: translateX(-50%);
+		opacity: 0;
+	}
+}
+
+/* Fade and slide in from the right */
+@keyframes slide-fade-in-right {
+	from {
+		transform: translateX(50%);
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+/* Fade and slide out to the right */
+@keyframes slide-fade-out-right {
+	to {
+		transform: translateX(50%);
+		opacity: 0;
+	}
+}
+
+/* Fade and slide in from the left */
+@keyframes slide-fade-in-left {
+	from {
+		transform: translateX(-50%);
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.fade-out-left {
+	animation: slide-fade-out-left 0.35s ease forwards;
+}
+
+.fade-in-right {
+	animation: slide-fade-in-right 0.35s ease forwards;
+}
+
+.fade-out-right {
+	animation: slide-fade-out-right 0.35s ease forwards;
+}
+
+.fade-in-left {
+	animation: slide-fade-in-left 0.35s ease forwards;
+}
